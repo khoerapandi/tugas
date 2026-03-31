@@ -1,6 +1,6 @@
 public abstract class Tiket {
     private String idTiket;
-    protected String namaPenumpang; // PASTIKAN ADA INI
+    protected String namaPenumpang;
     protected double hargaDasar;
 
     public Tiket(String idTiket, String namaPenumpang, double hargaDasar) {
@@ -11,7 +11,7 @@ public abstract class Tiket {
 
     public String getIdTiket() { return idTiket; }
     
-    // TAMBAHKAN INI AGAR ERROR DI MAIN HILANG
+   
     public String getNamaPenumpang() { return namaPenumpang; } 
     
     public abstract double hitungTotal();
