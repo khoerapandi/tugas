@@ -10,9 +10,6 @@ public abstract class Tiket {
     }
 
     public String getIdTiket() { return idTiket; }
-    
-   
     public String getNamaPenumpang() { return namaPenumpang; } 
-    
     public abstract double hitungTotal();
 }

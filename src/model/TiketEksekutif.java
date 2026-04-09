@@ -1,8 +1,6 @@
 public class TiketEksekutif extends Tiket implements LayananTambahan {
-    
     public TiketEksekutif(String id, String nama, double harga) {
-        
-        super(id, nama, harga); 
+        super(id, nama, harga);
     }
 
     @Override
@@ -12,6 +10,6 @@ public class TiketEksekutif extends Tiket implements LayananTambahan {
 
     @Override
     public double hitungBiayaLayanan() {
-        return 50000;
+        return 50000; 
     }
 }
